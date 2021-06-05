@@ -1,15 +1,17 @@
+*{
+    box-sizing: border-box;
+
+}
 header  {
     box-sizing: border-box;
-    width:50%;
+    width:100%;
     height:7em;
     
    background-color: fff;
     text-align: left;
    
- 
-
  position:relative;
- margin: 30px;
+ margin-left:50px ;
 
 }
 
@@ -17,13 +19,16 @@ header  {
 nav ul li  {
     display: inline-block;
     padding:40px;
+
    
       
 }
 
 nav ul li img {
     position:absolute;
-    left: 0%;
+    left: 0px;
+    bottom: 20px;
+
     
     }
 
@@ -35,14 +40,17 @@ nav ul li a {
  font-size: x-large;
     line-height: 2em;
   position: relative;
-  bottom: .5 em;
+  bottom: 10px;
   left:50% ;
 
 
 }
-#firstpart{
+
+main section:first-child{
     box-sizing: border-box;
-    width:50;
+    width:100%;
+    margin-left: 50px;
+    margin-top: 20px;
  
 
 }
@@ -50,7 +58,7 @@ nav ul li a {
 #img1 {
     
     display:block;
-    margin-left:30px ;
+    margin-left:0px ;
     
 }
 
@@ -59,59 +67,56 @@ nav ul li a {
     width:16.7;
     text-align: left;
     display: inline-block;
-    margin-left: 30px;
-    padding-top: 30px;
-  
+    margin-top: 20px;
+  padding-right: 27px;
 }
 
 
- 
+ main section:last-child
     
-#artical2{
+{
+    box-sizing: border-box;
     display: inline-block;
     
-    box-sizing: border-box;
-    width:37.5%;
-    margin:30px;
+    width:100%;
+    height: 480px;
+    margin-left:50px;
+    margin-top: 20px;
    
   
   
    position: relative;
     
 }
-#rrrr{
+main section:last-child nav li h1 ~ p
+
+{
     box-sizing: border-box;
-    
-    width:50%;
- 
+    width:450px;
+ height: 450px;
     font-size: x-large;
     line-height: 1em;
     color: black;
     text-decoration: none;
    font-family: Arial, Helvetica, sans-serif;
-
-  float: right;
-   text-align: justify;
+position: relative;
+left: 295px;
+top: -70px;
+text-align: left;   
   
 
 
   }
-#imgggg{
-    box-sizing: border-box;
-    width:50%;
-    position:absolute;
-    top: 20px;
-    
-
-}
+  main section:last-child nav li  p img
 
 
-footer{
-    clear: both;
-
+{
+    position: relative;
+    left: 20px;
+    top :20px;
+    border-radius: 10px;
 }
 footer{
-    box-sizing: border-box;
-    width: 50%;
+    margin-left:50px ;
 
 }
